@@ -7,7 +7,7 @@ import {
   faTwitter,
   faLinkedinIn,
 } from "@fortawesome/free-brands-svg-icons";
-import "./header.scss";
+import "./Header.scss";
 
 export default function Header() {
   const handleMenuClose = () => {
