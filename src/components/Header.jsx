@@ -52,7 +52,7 @@ export default function Header() {
           <div className="container-fluid">
             <Link className="navbar-brand" to="/">
               <img
-                src="../../public/images/1_Logo.png"
+                src="/images/1_Logo.png"
                 alt="logo"
                 className="logo"
               />

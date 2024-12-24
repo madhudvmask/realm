@@ -40,7 +40,7 @@ export default function Wedo() {
                 <div key={index} className="slide">
                   <div className="slide-content">
                     <img
-                      src={`../../public/images/6_Art_Realm_What-We-Do_Tile${index}.png`}
+                      src={`/images/6_Art_Realm_What-We-Do_Tile${index}.png`}
                       alt="painting"
                     />
                     <h3>Painting</h3>

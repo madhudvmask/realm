@@ -25,7 +25,7 @@ export default function Twocolumn() {
 
                 </div>
                 <div className='col-md-6 img-col'>
-                        <img  src="../../public/images/Aboutus.png" />
+                        <img  src="/images/Aboutus.png" />
                 </div>
             </div>
         </div>

@@ -136,7 +136,7 @@ export default function Footer() {
                 <span>
                   <img
                     alt="14_Website_Icon1.png"
-                    src="../../public/images/14_Website_Icon1.png"
+                    src="/images/14_Website_Icon1.png"
                   />
                 </span>
                 <span>
@@ -154,7 +154,7 @@ export default function Footer() {
                 <span>
                   <img
                     alt="14_Mail_Icon2"
-                    src="../../public/images/14_Mail_Icon2.png"
+                    src="/images/14_Mail_Icon2.png"
                   />
                 </span>
                 <span>
@@ -198,7 +198,7 @@ export default function Footer() {
                 <span>
                   <img
                     alt="14_Mail_Icon2"
-                    src="../../public/images/14_Location_Icon3.png"
+                    src="/images/14_Location_Icon3.png"
                   />
                 </span>
                 <span>
@@ -213,7 +213,7 @@ export default function Footer() {
                 <span>
                   <img
                     alt="14_Mail_Icon2"
-                    src="../../public/images/14_Call_Icon4.png"
+                    src="/images/14_Call_Icon4.png"
                   />
                 </span>
                 <span>

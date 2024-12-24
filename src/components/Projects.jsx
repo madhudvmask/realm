@@ -28,7 +28,7 @@ export default function Projects() {
             </ul>
           </div>
           <div className="project-image col-md-6">
-            <img src="../../public/images/13_Art_Realm_Projects_P1.png" alt="ongoing projects" />
+            <img src="/images/13_Art_Realm_Projects_P1.png" alt="ongoing projects" />
           </div>
         </div>
       </div>
