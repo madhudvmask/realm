@@ -1,5 +1,5 @@
 import React from "react";
-import "./twocol.scss";
+import "./TwoCol.scss";
 
 const ArtExperts = () => (
   <section className="twocolumn art">

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
-import "./footer.scss";
+import "./Footer.scss";
 
 export default function Footer() {
   const [formData, setFormData] = useState({
