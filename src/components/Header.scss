@@ -1,0 +1,147 @@
+@font-face {
+    font-family: "Speedee-Black";
+    src: url("../assets/fonts/Speedee-Black.eot");
+    src: url("../assets/fonts/Speedee-Black.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Speedee-Black.woff") format("woff"), url("../assets/fonts/Speedee-Black.ttf") format("truetype"), url("../assets/fonts/Speedee-Black.svg#Speedee-Black") format("svg");
+    font-weight: normal;
+    font-style: normal; }
+
+
+@font-face {
+        font-family: "Speedee-Regular";
+        src: url("../assets/fonts/Speedee-Regular.eot");
+        src: url("../assets/fonts/Speedee-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Speedee-Regular.woff") format("woff"), url("../assets/fonts/Speedee-Regular.ttf") format("truetype"), url("../assets/fonts/Speedee-Black.svg#Speedee-Regular") format("svg");
+        font-weight: normal;
+        font-style: normal; }
+@import url("https://use.typekit.net/tqy0rvz.css");
+
+.header{
+    background: #F2F1EA;
+    .top-nav{        
+        justify-content: center;
+        display: none;
+        @media screen and (max-width: 992px) {
+            display: flex !important;
+            padding-top: 20px;
+            .social-links{
+                @media screen and (max-width: 992px) {
+                    display: flex;
+                    a{
+                        font-size: 16px;
+                    }
+                    
+                }
+            }
+        }
+    }
+    .navbar-brand{
+        @media screen and (max-width: 992px) {
+            width: 60%;
+        }
+    }
+    .logo{
+        @media screen and (max-width: 992px) {
+            width: 100%;
+        }
+    }
+
+    .navbar-toggler {
+        position: relative;
+        width: 60px;
+        height: 60px;
+        border: none;
+        background: transparent;
+        outline: none !important;
+        &:focus{
+            outline: none !important;
+            border: 0px !important;
+            box-shadow: none;
+        }
+      
+        span {
+          display: block;
+          background: #113484;
+          height: 3px;
+          margin: 4px 0;
+          transition: all 0.3s ease-in-out;
+          transform-origin: center;
+        }
+      
+        &.collapsed span:nth-child(1) {
+          transform: rotate(0) translate(0);
+          outline: none !important;
+        }
+        &.collapsed span:nth-child(2) {
+          opacity: 1;
+          outline: none !important;
+        }
+        &.collapsed span:nth-child(3) {
+          transform: rotate(0) translate(0);
+          outline: none !important;
+        }
+      
+        // X mark styles
+        &:not(.collapsed) span:nth-child(1) {
+          transform: rotate(45deg) translate(5px, 5px);
+          outline: none !important;
+        }
+        &:not(.collapsed) span:nth-child(2) {
+          opacity: 0;
+        }
+        &:not(.collapsed) span:nth-child(3) {
+          transform: rotate(-45deg) translate(5px, -5px);
+        }
+      }
+      
+
+.container-fluid{
+    background: #F2F1EA;
+    
+    .navbar-nav{
+        margin: 0 auto;
+        .nav-item{
+            
+            a{
+                text-align: left;
+                font-size: 16px;
+                letter-spacing: 2.88px;
+                color: #123484;
+                text-transform: uppercase;
+                opacity: 1;
+                font-family: "Speedee-Regular", Arial, Helvetica, sans-serif;
+                padding: 15px 40px 15px 20px;
+                transition: background 0.3s ease, color 0.3s ease; /* Added transition */
+                &:hover{
+                    background: url('../../public/images/2_Hower.png');
+                    background-repeat: no-repeat;
+                    color: #fff;
+                    background-repeat: no-repeat;
+                    color: #fff;
+                    background-size: 100% 100%;
+                }
+            }
+        }
+    }
+}
+    .social-links{
+        @media screen and (max-width: 992px) {
+            display: none;
+        }
+        ul{
+            padding-left: 0px;
+            li{
+                list-style: none;
+                display: inline;
+                a{
+                    
+                        color: #113484;
+                        font-size: 20px;
+                        padding: 10px 15px;
+                        &:hover{
+                            color: #D4BD29;
+                        }
+                    
+                }
+            }
+        }
+    }
+}

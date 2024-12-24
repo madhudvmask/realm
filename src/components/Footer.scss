@@ -1,0 +1,272 @@
+@font-face {
+  font-family: "Speedee-Black";
+  src: url("../assets/fonts/Speedee-Black.eot");
+  src: url("../assets/fonts/Speedee-Black.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Speedee-Black.woff") format("woff"), url("../assets/fonts/Speedee-Black.ttf") format("truetype"), url("../assets/fonts/Speedee-Black.svg#Speedee-Black") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "Speedee-Regular";
+  src: url("../assets/fonts/Speedee-Regular.eot");
+  src: url("../assets/fonts/Speedee-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Speedee-Regular.woff") format("woff"), url("../assets/fonts/Speedee-Regular.ttf") format("truetype"), url("../assets/fonts/Speedee-Black.svg#Speedee-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url("https://use.typekit.net/tqy0rvz.css");
+
+footer {
+  background: url('../../public/images/15_Art_Realm_Footer_Bg.png');
+  background-size: cover;
+
+  .container {
+    display: flex;
+    justify-content: space-around;
+    padding: 170px 15px 77px;
+    @media screen and (max-width: 992px) {
+      padding: 50px 15px;
+    }
+  }
+
+  
+  .contact-form,
+  .contact-info {
+    flex: 1;
+    padding: 1rem;
+    position: relative;
+    @media screen and (max-width: 992px) {
+      padding-bottom: 100px;
+  }
+  }
+
+  .contact-form {
+    h3 {
+      text-align: left;
+      font-size: 16px;
+      letter-spacing: 2.88px;
+      margin-bottom: 24px;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      opacity: 1;
+      font-family: "Speedee-Regular", Arial, Helvetica, sans-serif;
+    }
+
+    h2 {
+      color: #fff;
+      font-size: 36px;
+      line-height: 60px;
+      font-family: "ivyora-text", sans-serif;
+      font-weight: 400;
+      margin-bottom: 75px;
+      position: relative;
+      text-align: left;
+      @media screen and (max-width: 992px) {
+        text-align: left;
+line-height: 40px;
+font-size: 30px;
+    }
+
+      &::after {
+        background: #fff;
+        width: 69px;
+        height: 1px;
+        content: "";
+        bottom: -30px;
+        left: 0px;
+        position: absolute;
+      }
+    }
+
+    p {
+      text-align: left;
+      font-size: 16px;
+      letter-spacing: 2.88px;
+      margin-bottom: 50px;
+      color: #FFFFFF;
+      opacity: 1;
+      font-family: "Speedee-Regular", Arial, Helvetica, sans-serif;
+      @media screen and (max-width: 992px) {
+        margin-bottom: 20px;
+      }
+    }
+    .msgStatus{
+      margin-bottom: 0px !important;
+    border: 1px solid #D4BD29;
+    color: #123484;
+    padding: 20px;
+    text-align: center;
+    width: 93%;
+    background: #D4BD29;
+    position: absolute;
+    bottom: 90px;
+    left: 20px;
+    @media screen and (max-width: 992px) {
+      bottom: 20px;
+      left: 10px;
+  }
+    }
+
+  }
+
+  .contact-info {
+
+    color: #000;
+    padding: 2rem;
+    @media screen and (max-width: 992px) {
+      padding: 1rem;
+    }
+
+    .info-wrapper {
+      background-color: #D4BD29;
+      padding-bottom: 85px;
+      padding-top: 177px;
+      padding-left: 95px;
+
+      @media screen and (max-width: 1400px) {
+        padding-bottom: 82px;
+      padding-top: 50px;
+      padding-left: 15px;
+      }
+      
+      @media screen and (max-width: 992px) {
+        padding: 20px ;
+      }
+
+      ul {
+        max-width: 90%;
+        padding-inline-start: 0px;
+        list-style: none;
+        display: inline-block;
+
+        li {
+          display: inline-block;
+
+          a {
+            color: #123484;
+            opacity: 1;
+            font-family: "Speedee-Regular", Arial, Helvetica, sans-serif;
+            text-decoration: none;
+          }
+        }
+      }
+
+      p {
+        display: flex;
+        text-align: left;
+        font-size: 16px;
+        letter-spacing: 2.88px;
+        margin-bottom: 25px;
+        color: #123484;
+        opacity: 1;
+        font-family: "Speedee-Regular", Arial, Helvetica, sans-serif;
+
+        span {
+          padding: 5px;
+
+          img {
+            margin-right: 30px;
+          }
+        }
+      }
+    }
+  }
+
+  /* Form Styling */
+  .row1 {
+    display: flex;
+    margin-bottom: 40px;
+    @media screen and (max-width: 992px) {
+      flex-direction: column;
+      margin-bottom: 0px;
+    }
+  }
+
+  .row2 {
+    margin-bottom: 60px;
+
+    .form-group label {
+      top: 20%;
+    }
+  }
+
+  .form-group {
+    position: relative;
+    margin: 1rem 1rem 0rem 0rem;
+    @media screen and (max-width: 992px) {
+      margin-top: 40px;
+    }
+  }
+
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid #fff;
+    color: #fff;
+    outline: none;
+    padding-left: 10px;
+  }
+
+  .form-group label {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    transition: all 0.3s ease;
+    color: #fff;
+    pointer-events: none;
+    /* Prevent label from being clicked */
+  }
+
+  .form-group input:focus+label,
+  .form-group textarea:focus+label,
+  .form-group input:not(:placeholder-shown)+label,
+  .form-group textarea:not(:placeholder-shown)+label {
+    top: -12px;
+    left: 2px;
+    z-index: 9;
+    font-size: 12px;
+    color: #D4BD29;
+    @media screen and (max-width: 992px) {
+      top: -15px;
+    }
+    /* Highlight label color */
+  }
+
+  .row3 {
+    display: flex;
+    justify-content: end;
+    @media screen and (max-width: 992px) {
+      justify-content: start;
+    }
+  }
+
+  button {
+    background-color: #fff;
+    color: #002366;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-family: "Speedee-Regular", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    transition: 0.3s;
+    line-height: 24px;
+    margin-right: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 168px;
+    @media screen and (max-width: 992px) {
+      margin-bottom: 20px;
+    }
+  }
+
+  button:hover {
+    background-color: #F2C94C;
+    color: #002366;
+  }
+}

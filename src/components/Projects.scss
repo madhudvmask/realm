@@ -1,0 +1,129 @@
+@import url("https://use.typekit.net/tqy0rvz.css");
+
+
+.ongoing-projects {
+    background: #F2F1EA;
+    position: relative;
+    padding-bottom: 400px;
+    padding-top: 100px;
+    @media screen and (max-width: 992px) {
+        padding: 50px 15px;
+      }
+
+    &::after {
+        background: url('../../public/images/12_Art_Realm_Projects_Brush.png');
+        content: "";
+        position: absolute;
+        bottom: 0px;
+        width: 505px;
+        height: 498px;
+        left: 0%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        @media screen and (max-width: 1400px) {
+            bottom: 0px;
+        width: 350px;
+        height: 450px;
+          }
+        @media screen and (max-width: 992px) {
+            display: none;
+          }
+    }
+
+    .container {
+        .project-data {
+            display: flex;
+            justify-content: space-between;
+
+
+            .project-list {
+                padding-top: 200px;
+                @media screen and (max-width: 1400px) {
+                    padding-top: 20px;
+                  }
+
+                h2 {
+                    text-align: left;
+                    font-size: 16px;
+                    letter-spacing: 2.88px;
+                    margin-bottom: 24px;
+                    color: #1F1F1F;
+                    text-transform: uppercase;
+                    opacity: 1;
+                    font-family: "Speedee-Regular", Arial, Helvetica, sans-serif;
+                }
+
+                h3 {
+                    font-family: "ivyora-text", sans-serif;
+                    font-weight: 400;
+                    font-size: 40px;
+                    line-height: 60px;
+                    letter-spacing: 1.24px;
+                    color: #1F1F1F;
+                    opacity: 1;
+                    position: relative;
+                    text-align: left;
+                    @media screen and (max-width: 992px) {
+                        text-align: left;
+                line-height: 40px;
+                font-size: 30px;
+                    }
+
+                    &::after {
+                        background: #1F1F1F;
+                        width: 50px;
+                        height: 1px;
+                        content: "";
+                        bottom: -30px;
+                        left: 0px;
+                        position: absolute;
+                    }
+
+                }
+
+                ul {
+                    margin-top: 60px;
+                    padding-left: 0px;
+
+                    li {
+                        list-style: none;
+                        margin-bottom: 20px;
+
+                        a {
+                            text-align: left;
+                            font-size: 16px;
+                            letter-spacing: 2.88px;
+                            margin-bottom: 24px;
+                            color: #1F1F1F;
+                            text-decoration: none;
+                            opacity: 1;
+                            font-family: "Speedee-Regular", Arial, Helvetica, sans-serif;
+
+                            &.active {
+                                color: #113484;
+                            }
+
+                            &:hover {
+                                color: #113484;
+                            }
+                        }
+                    }
+                }
+
+            }
+
+            .project-image {
+                img {
+                    width: auto;
+                    height: 750px;
+                    @media screen and (max-width: 1400px) {
+                        width: 100%;
+                        height: auto;
+                        margin-top: 50px;
+                      }
+                }
+            }
+        }
+
+    }
+}

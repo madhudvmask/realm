@@ -1,0 +1,15 @@
+.banner-section{
+    background: url(/public/images/Main-Banner1.gif);
+    background-size: contain;
+    min-height: 700px;
+    background-repeat: no-repeat;
+    background-color: #F2F1EA;
+    background-position: center top;
+    @media screen and (max-width: 1400px) {
+        min-height: 525px;
+      }
+    @media screen and (max-width: 992px) {
+        min-height: 250px;
+        background-position: center;
+    }
+}

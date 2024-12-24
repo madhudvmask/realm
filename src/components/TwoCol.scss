@@ -1,0 +1,167 @@
+@font-face {
+    font-family: "Speedee-Black";
+    src: url("../assets/fonts/Speedee-Black.eot");
+    src: url("../assets/fonts/Speedee-Black.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Speedee-Black.woff") format("woff"), url("../assets/fonts/Speedee-Black.ttf") format("truetype"), url("../assets/fonts/Speedee-Black.svg#Speedee-Black") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "Speedee-Regular";
+    src: url("../assets/fonts/Speedee-Regular.eot");
+    src: url("../assets/fonts/Speedee-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Speedee-Regular.woff") format("woff"), url("../assets/fonts/Speedee-Regular.ttf") format("truetype"), url("../assets/fonts/Speedee-Black.svg#Speedee-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Speedee-Bold";
+    src: url("../assets/fonts/Speedee-Bold.eot");
+    src: url("../assets/fonts/Speedee-Bold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Speedee-Bold.woff") format("woff"), url("../assets/fonts/Speedee-Bold.ttf") format("truetype"), url("../assets/fonts/Speedee-Bold.svg#Speedee-Bold") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url("https://use.typekit.net/tqy0rvz.css");
+
+.twocolumn {
+    background-color: #F2F1EA;
+    padding: 100px 0px;
+
+    @media screen and (max-width: 992px) {
+        padding: 50px 0px 25px;
+    }
+
+    &.art {
+        position: relative;
+
+        &::after {
+            position: absolute;
+            width: 100%;
+            content: "";
+            height: 345px;
+            background: url('../../public/images/8_Art_Realm_Studio_Wave.png') no-repeat;
+            z-index: 9;
+            background-size: cover;
+            bottom: -80px;
+            @media screen and (max-width: 1400px) {
+                bottom: -85px;
+            }
+
+            @media screen and (max-width: 992px) {
+                display: none;
+            }
+        }
+
+        .row {
+            @media screen and (max-width: 992px) {
+                flex-direction: column-reverse;
+            }
+        }
+    }
+
+
+    .data-col {
+        &.padding-top {
+            padding-left: 100px;
+
+            @media screen and (max-width: 992px) {
+                padding-left: 15px;
+            }
+
+            h2 {
+                padding-top: 100px;
+                @media screen and (max-width: 1400px) {
+                    padding-top: 20px;
+                }
+            }
+        }
+
+        h2 {
+            text-align: left;
+            font-size: 16px;
+            letter-spacing: 2.88px;
+            margin-bottom: 24px;
+            color: #1D1D1D;
+            text-transform: uppercase;
+            opacity: 1;
+            font-family: "Speedee-Regular", Arial, Helvetica, sans-serif;
+        }
+
+        h3 {
+            color: #1D1D1D;
+            font-size: 36px;
+            line-height: 60px;
+            font-family: "ivyora-text", sans-serif;
+            font-weight: 400;
+            margin-bottom: 75px;
+            text-align: left;
+            position: relative;
+            @media screen and (max-width: 992px) {
+                text-align: left;
+        line-height: 40px;
+        font-size: 30px;
+            }
+
+            &::after {
+                background: #1D1D1D;
+                width: 69px;
+                height: 1px;
+                content: "";
+                bottom: -30px;
+                left: 0px;
+                position: absolute;
+            }
+        }
+
+        p {
+            text-align: left;
+            font-size: 16px;
+            margin-bottom: 25px;
+            color: #1D1D1D;
+            opacity: 1;
+            font-family: "Speedee-Regular", Arial, Helvetica, sans-serif;
+            max-width: 90%;
+        }
+
+        strong {
+            font-family: "Speedee-Bold", Arial, Helvetica, sans-serif;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+        
+    }
+
+    .img-col {
+        img {
+            width: 100%;
+            max-width: 750px;
+        }
+    }
+
+}
+
+.btn-primary {
+    border: 1px solid #1D1D1D;
+    padding: 10px 35px;
+    text-decoration: none;
+    color: #1D1D1D;
+    display: inline-block;
+    margin-top: 50px;
+    cursor: pointer;
+    font-family: "Speedee-Normal", Arial, Helvetica, sans-serif;
+    z-index: 999;
+    position: relative;
+    text-transform: uppercase;
+    @media screen and (max-width: 992px) {
+        margin-bottom: 50px;
+    }
+
+    &:hover {
+        background: #1D1D1D;
+        color: #fff;
+    }
+
+}
