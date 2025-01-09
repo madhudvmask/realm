@@ -7,7 +7,7 @@ import {
   faTwitter,
   faLinkedinIn,
 } from "@fortawesome/free-brands-svg-icons";
-import "./Header.scss";
+import "./header.scss";
 
 export default function Header() {
   const handleMenuClose = () => {
@@ -52,7 +52,7 @@ export default function Header() {
           <div className="container-fluid">
             <Link className="navbar-brand" to="/">
               <img
-                src="/images/1_Logo.png"
+                src="../../public/images/1_Logo.png"
                 alt="logo"
                 className="logo"
               />

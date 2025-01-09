@@ -1,0 +1,316 @@
+@font-face {
+    font-family: "Speedee-Black";
+    src: url("../assets/fonts/Speedee-Black.eot");
+    src: url("../assets/fonts/Speedee-Black.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Speedee-Black.woff") format("woff"), url("../assets/fonts/Speedee-Black.ttf") format("truetype"), url("../assets/fonts/Speedee-Black.svg#Speedee-Black") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "Speedee-Regular";
+    src: url("../assets/fonts/Speedee-Regular.eot");
+    src: url("../assets/fonts/Speedee-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Speedee-Regular.woff") format("woff"), url("../assets/fonts/Speedee-Regular.ttf") format("truetype"), url("../assets/fonts/Speedee-Black.svg#Speedee-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Speedee-Bold";
+    src: url("../assets/fonts/Speedee-Bold.eot");
+    src: url("../assets/fonts/Speedee-Bold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Speedee-Bold.woff") format("woff"), url("../assets/fonts/Speedee-Bold.ttf") format("truetype"), url("../assets/fonts/Speedee-Bold.svg#Speedee-Bold") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url("https://use.typekit.net/tqy0rvz.css");
+
+.registration-wrapper {
+    padding: 115px 0px 0px;
+    background: #F2F1EA;
+
+    @media screen and (max-width: 992px) {
+        padding: 50px 0px 0px;
+    }
+
+    header {
+        h3 {
+            color: #1D1D1D;
+            font-size: 36px;
+            line-height: 60px;
+            font-family: "ivyora-text", sans-serif;
+            font-weight: 400;
+            margin-bottom: 40px;
+            text-align: left;
+            position: relative;
+            @media screen and (max-width: 992px) {
+                font-size: 30px;
+                line-height: 40px;
+            }
+
+            &::after {
+                background: #1D1D1D;
+                width: 69px;
+                height: 1px;
+                content: "";
+                bottom: -10px;
+                left: 0px;
+                position: absolute;
+            }
+        }
+
+        p {
+            text-align: left;
+            font-size: 16px;
+            margin-bottom: 25px;
+            color: #1D1D1D;
+            opacity: 1;
+            font-family: "Speedee-Regular", Arial, Helvetica, sans-serif;
+            max-width: 90%;
+            margin-bottom: 55px;
+        }
+
+    }
+
+    .htr-wrapper {
+        background: #E8E6DC;
+        padding: 60px 48px 150px;
+        position: relative;
+        @media screen and (max-width: 992px) {
+            padding: 30px 20px 100px;
+        }
+
+        &::after {
+            background: url(/public/images/Register.png);
+            background-repeat: no-repeat;
+            content: "";
+            position: absolute;
+            bottom: -80px;
+            width: 150px;
+            height: 150px;
+            left: 50%;
+transform: translateX(-50%);
+            z-index: 9;
+            background-size: contain;
+        }
+    }
+
+    h6 {
+        text-align: left;
+        font-size: 16px;
+        margin-bottom: 25px;
+        color: #1D1D1D;
+        opacity: 1;
+        font-family: "Speedee-Regular", Arial, Helvetica, sans-serif;
+        max-width: 90%;
+        margin-bottom: 48px;
+
+    }
+
+    ol {
+        padding-left: 20px;
+
+        li {
+            text-align: left;
+            font-size: 16px;
+            margin-bottom: 10px;
+            color: #1D1D1D;
+            opacity: 1;
+            font-family: "Speedee-Regular", Arial, Helvetica, sans-serif;
+            max-width: 90%;
+        }
+    }
+
+    .schedule h2 {
+        text-align: left;
+        margin-bottom: 48px;
+    }
+
+    .schedule-item {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 30px;
+    }
+
+    .icon {
+        width: 40px;
+        margin-right: 40px;
+    }
+
+    .icon img {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .details {
+        flex: 1;
+    }
+
+    .details h3 {
+        margin: 0;
+        font-size: 1.2rem;
+        color: #333;
+        text-align: left;
+        line-height: normal;
+        font-weight: bold;
+        font-family: "Speedee-Bold", Arial, Helvetica, sans-serif;
+    }
+
+    .details p {
+        margin: 0px 0 0;
+        font-size: 0.9rem;
+        color: #555;
+        font-family: "Speedee-Regular", Arial, Helvetica, sans-serif;
+    }
+
+    .details span {
+        font-style: italic;
+    }
+
+    .schedule {
+        padding-left: 100px;
+        @media screen and (max-width: 992px) {
+            padding-left: 15px;
+            padding-top: 150px;
+          }
+    }
+}
+
+.fees-wrapper {
+    padding: 10rem 0;
+    background-color: #F2F1EA;
+    @media screen and (max-width: 992px) {
+        padding: 2rem 0 4rem;
+      }
+
+
+    .fees-discounts {
+        h3 {
+            
+            font-size: 1.5rem;
+            margin-bottom: 0;
+            color: #fff;
+            position: relative;
+            background: #C1BA98;
+            font-family: "Speedee-Regular", Arial, Helvetica, sans-serif;
+            text-align: center;
+            padding: 2rem 0rem;
+
+            // &::after {
+            //     background: #C1BA98;
+            //     position: absolute;
+            //     content: "";
+            //     height: 100px;
+            //     width: 110%;
+            //     left: -30px;
+            //     top: -25px;
+            // }
+        }
+
+        .fees-table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+            th,
+            td {
+                padding: 1rem;
+                text-align: left;
+                border: 5px solid #fff;
+                font-size: 1rem;
+            }
+
+            th {
+                background-color: #E8E6DC;
+                font-weight: 600;
+            }
+
+            td {
+                color: #1D1D1D;
+                font-size: 16px;
+                background-color: #E8E6DC;
+                font-weight: bold;
+                font-family: "Speedee-Bold";
+                text-align: center;
+
+                span {
+                    font-family: "Speedee-Regular", Arial, Helvetica, sans-serif;
+                    font-weight: 300;
+                }
+
+            }
+
+            tr:nth-child(even) {
+                background-color: #E8E6DC;
+            }
+        }
+    }
+
+    .additional-info {
+        padding-left: 100px;
+        @media screen and (max-width: 992px) {
+            padding-left: 15px;
+          }
+
+        p {
+
+            margin-bottom: 1rem;
+            color: #505050;
+            font-family: "Speedee-Regular", Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            line-height: 24px;
+
+            strong {
+                color: #505050;
+                font-family: "Speedee-Bold", Arial, Helvetica, sans-serif;
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+
+        h4 {
+            font-size: 1.25rem;
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+            color: #333;
+        }
+
+        ul {
+            padding-left: 1.5rem;
+
+            li {
+                font-size: 1rem;
+                line-height: 1.5;
+                color: #555;
+                margin-bottom: 0.5rem;
+            }
+        }
+    }
+
+    // Responsive Styles
+    @media (max-width: 768px) {
+        .row {
+            flex-direction: column;
+
+            .col-md-6 {
+                margin-bottom: 2rem;
+            }
+        }
+
+        .fees-discounts,
+        .additional-info {
+            padding: 1rem;
+        }
+
+        .fees-table {
+            font-size: 0.9rem;
+
+            th,
+            td {
+                padding: 0.75rem;
+            }
+        }
+    }
+}

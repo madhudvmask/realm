@@ -1,0 +1,123 @@
+.collections {
+    background-color: #F2F1EA;
+    padding: 50px 0px 50px;
+
+    @media screen and (max-width: 992px) {
+        padding: 50px 0px 25px;
+    }
+
+    &.art {
+        position: relative;       
+
+        .row {
+            @media screen and (max-width: 992px) {
+                flex-direction: column-reverse;
+            }
+        }
+    }
+
+
+    .data-col {
+        &.padding-top {
+            padding-left: 100px;
+
+            @media screen and (max-width: 992px) {
+                padding-left: 15px;
+            }
+
+            h2 {
+                padding-top: 100px;
+                @media screen and (max-width: 1400px) {
+                    padding-top: 20px;
+                }
+                @media screen and (max-width: 992px) {
+                    font-size: 14px;
+                }
+            }
+        }
+
+        h2 {
+            text-align: left;
+            font-size: 16px;
+            letter-spacing: 2.88px;
+            margin-bottom: 24px;
+            color: #1D1D1D;
+            text-transform: uppercase;
+            opacity: 1;
+            font-family: "Speedee-Regular", Arial, Helvetica, sans-serif;
+        }
+
+        h3 {
+            color: #1D1D1D;
+            font-size: 36px;
+            line-height: 60px;
+            font-family: "ivyora-text", sans-serif;
+            font-weight: 400;
+            margin-bottom: 40px;
+            text-align: left;
+            position: relative;
+            @media screen and (max-width: 992px) {
+                text-align: left;
+        line-height: 40px;
+        font-size: 22px;
+            }
+
+            &::after {
+                background: #1D1D1D;
+                width: 69px;
+                height: 1px;
+                content: "";
+                bottom: -10px;
+                left: 0px;
+                position: absolute;
+            }
+        }
+
+        p {
+            text-align: left;
+            font-size: 16px;
+            margin-bottom: 25px;
+            color: #1D1D1D;
+            opacity: 1;
+            font-family: "Speedee-Regular", Arial, Helvetica, sans-serif;
+            max-width: 90%;
+        }
+
+        strong {
+            font-family: "Speedee-Bold", Arial, Helvetica, sans-serif;
+            display: inline-block;
+            margin-bottom: 10px;
+        }        
+    }
+  
+
+    .img-col {
+        img {
+            width: 100%;
+            max-width: 750px;
+        }
+    }
+
+}
+
+.children-art{
+    padding-top: 100px;
+    background: #E8E6DC;
+    .data-col.padding-top {
+        padding-left: 0px;
+    }
+    &.mb100{
+        padding-bottom: 100px;
+    }
+    @media screen and (max-width: 992px) {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 2rem;
+      }
+}
+
+.section3{
+    .data-col.padding-top {
+        padding-left: 25px;
+    }
+}
