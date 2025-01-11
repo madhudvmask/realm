@@ -4,6 +4,7 @@ import Twocolumn from '../components/TwoColFirst';
 import Wedo from '../components/WeDo';
 import ArtExperts from '../components/ArtExperts';
 import Gallery from '../components/Gallery';
+import Projects from '../components/Projects';
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <Twocolumn />
       <Wedo />
       <ArtExperts />
+<Projects/>
       <Gallery />
     </>
   );

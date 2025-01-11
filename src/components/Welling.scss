@@ -30,6 +30,10 @@
     background: url(/public/images/5_Art_Realm_What-We-Do_Bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    @media screen and (max-width: 768px) {
+        padding: 50px 0px;
+        text-align: left;
+    }
     header{
         color: #fff;
         font-size: 16px;
@@ -38,6 +42,11 @@
             text-transform: uppercase;
             opacity: 1;
             font-family: "Speedee-Regular", Arial, Helvetica, sans-serif;
+            @media screen and (max-width: 768px) {
+                text-align: left;
+                font-size: 14px;
+                margin-bottom: 30px;
+            }
 
     }
     h3 {
@@ -51,8 +60,12 @@
         position: relative;
         @media screen and (max-width: 992px) {
             text-align: left;
-            line-height: 40px;
+            line-height: 30px;
             font-size: 30px;
+        }
+        @media screen and (max-width: 768px) {
+            line-height: 36px !important;
+            font-size: 26px !important;
         }
     }
     h2{
@@ -71,10 +84,17 @@
             line-height: 30px;
             font-size: 20px;
         }
+        @media screen and (max-width: 768px) {
+            font-size: 16px !important;
+            margin-bottom: 20px;
+        }
     }
     ul{
         padding-left: 20px;
         margin-bottom: 120px;
+        @media screen and (max-width: 768px) {
+            margin-bottom: 50px;
+        }
         li{
             color: #fff;
             font-family: "Speedee-Regular", sans-serif;
@@ -87,5 +107,8 @@
             font-family: "Speedee-Regular", sans-serif;
             font-size: 16px;
             line-height: 25px;
+            @media screen and (max-width: 768px) {
+                text-align: left;
+            }
     }
 }

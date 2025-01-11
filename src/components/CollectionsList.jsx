@@ -27,9 +27,9 @@ const CollectionsList = () => {
                 providing a nurturing environment for artistic exploration and
                 development.
               </p>
-              <a href="#" className="btn-primary">
+              {/* <a href="#" className="btn-primary">
                 Know More
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

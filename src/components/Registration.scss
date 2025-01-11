@@ -28,7 +28,9 @@
 .registration-wrapper {
     padding: 115px 0px 0px;
     background: #F2F1EA;
-    ;
+    @media screen and (max-width: 768px) {
+        padding: 50px 0px;
+    }
 
     header {
         h3 {
@@ -40,6 +42,10 @@
             margin-bottom: 40px;
             text-align: left;
             position: relative;
+            @media screen and (max-width: 768px) {
+                line-height: 36px !important;
+            font-size: 26px !important;
+            }
 
             &::after {
                 background: #1D1D1D;
@@ -69,6 +75,9 @@
         background: #E8E6DC;
         padding: 60px 48px 150px;
         position: relative;
+        @media screen and (max-width: 768px) {
+            padding: 25px 15px;
+        }
 
         &::after {
             background: url(/public/images/Register.png);
@@ -82,6 +91,9 @@
 transform: translateX(-50%);
             z-index: 9;
             background-size: contain;
+            @media screen and (max-width: 768px) {
+                bottom: -130px;
+            }
         }
     }
 
@@ -94,6 +106,9 @@ transform: translateX(-50%);
         font-family: "Speedee-Regular", Arial, Helvetica, sans-serif;
         max-width: 90%;
         margin-bottom: 48px;
+        @media screen and (max-width: 768px) {
+            margin-bottom: 25px;
+        }
 
     }
 
@@ -159,6 +174,12 @@ transform: translateX(-50%);
 
     .schedule {
         padding-left: 100px;
+        @media screen and (max-width: 991px) {
+           padding-left: 0px;
+        }
+        @media screen and (max-width: 768px) {
+            padding-top: 200px;
+         }
     }
 }
 
@@ -166,7 +187,9 @@ transform: translateX(-50%);
     padding: 10rem 0;
     background-color: #F2F1EA;
 
-
+    @media screen and (max-width: 768px) {
+        padding: 1rem 0;
+    }
 
     .fees-discounts {
         h3 {
@@ -177,6 +200,9 @@ transform: translateX(-50%);
             position: relative;
             background: #C1BA98;
             font-family: "Speedee-Regular", Arial, Helvetica, sans-serif;
+            @media screen and (max-width: 768px) {
+                text-align: center;
+            }
 
             // &::after {
             //     background: #C1BA98;
