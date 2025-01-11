@@ -1,5 +1,5 @@
 import React from 'react'
-import './twocol.scss'
+import './TwoCol.scss'
 
 export default function Twocolumn() {
   return (
