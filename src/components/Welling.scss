@@ -30,9 +30,6 @@
     background: url(/public/images/5_Art_Realm_What-We-Do_Bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    @media screen and (max-width: 992px) {
-        padding: 100px 15px;
-      }
     header{
         color: #fff;
         font-size: 16px;
@@ -78,9 +75,6 @@
     ul{
         padding-left: 20px;
         margin-bottom: 120px;
-        @media screen and (max-width: 992px) {
-            margin-bottom: 50px;
-          }
         li{
             color: #fff;
             font-family: "Speedee-Regular", sans-serif;

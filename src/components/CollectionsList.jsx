@@ -11,7 +11,7 @@ const CollectionsList = () => {
             {/* Image Column */}
             <div className="col-lg-6 img-col">
               <img
-                src="../../public/images/7_Art_Realm_Art-Classes_Image1.png"
+                src="/images/7_Art_Realm_Art-Classes_Image1.png"
                 alt="Representation of art classes at Art Realm Studio"
               />
             </div>
@@ -81,7 +81,7 @@ const CollectionsList = () => {
             {/* Image Column */}
             <div className="col-lg-6 img-col">
               <img
-                src="../../public/images/Childrens_Image.png"
+                src="/images/Childrens_Image.png"
                 alt="Children participating in art classes"
               />
             </div>
@@ -96,7 +96,7 @@ const CollectionsList = () => {
             {/* Image Column */}
             <div className="col-lg-6 img-col">
               <img
-                src="../../public/images/Teens_image.png"
+                src="/images/Teens_image.png"
                 alt="Representation of art classes at Art Realm Studio"
               />
             </div>
@@ -189,7 +189,7 @@ const CollectionsList = () => {
             {/* Image Column */}
             <div className="col-lg-6 img-col">
               <img
-                src="../../public/images/Childrens_Image.png"
+                src="/images/Childrens_Image.png"
                 alt="Children participating in art classes"
               />
             </div>

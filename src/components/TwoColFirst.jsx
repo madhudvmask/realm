@@ -1,5 +1,5 @@
 import React from 'react'
-import './TwoCol.scss'
+import './twocol.scss'
 
 export default function Twocolumn() {
   return (
@@ -25,7 +25,7 @@ export default function Twocolumn() {
 
                 </div>
                 <div className='col-md-6 img-col'>
-                        <img  src="../../public/images/Aboutus.png" />
+                        <img  src="/images/Aboutus.png" />
                 </div>
             </div>
         </div>

@@ -28,10 +28,7 @@
 .registration-wrapper {
     padding: 115px 0px 0px;
     background: #F2F1EA;
-
-    @media screen and (max-width: 992px) {
-        padding: 50px 0px 0px;
-    }
+    ;
 
     header {
         h3 {
@@ -43,10 +40,6 @@
             margin-bottom: 40px;
             text-align: left;
             position: relative;
-            @media screen and (max-width: 992px) {
-                font-size: 30px;
-                line-height: 40px;
-            }
 
             &::after {
                 background: #1D1D1D;
@@ -76,9 +69,6 @@
         background: #E8E6DC;
         padding: 60px 48px 150px;
         position: relative;
-        @media screen and (max-width: 992px) {
-            padding: 30px 20px 100px;
-        }
 
         &::after {
             background: url(/public/images/Register.png);
@@ -169,19 +159,13 @@ transform: translateX(-50%);
 
     .schedule {
         padding-left: 100px;
-        @media screen and (max-width: 992px) {
-            padding-left: 15px;
-            padding-top: 150px;
-          }
     }
 }
 
 .fees-wrapper {
     padding: 10rem 0;
     background-color: #F2F1EA;
-    @media screen and (max-width: 992px) {
-        padding: 2rem 0 4rem;
-      }
+
 
 
     .fees-discounts {
@@ -193,8 +177,6 @@ transform: translateX(-50%);
             position: relative;
             background: #C1BA98;
             font-family: "Speedee-Regular", Arial, Helvetica, sans-serif;
-            text-align: center;
-            padding: 2rem 0rem;
 
             // &::after {
             //     background: #C1BA98;
@@ -250,9 +232,6 @@ transform: translateX(-50%);
 
     .additional-info {
         padding-left: 100px;
-        @media screen and (max-width: 992px) {
-            padding-left: 15px;
-          }
 
         p {
 

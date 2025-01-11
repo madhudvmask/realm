@@ -1,5 +1,5 @@
 import React from "react";
-import "./TwoCol.scss";
+import "./twocol.scss";
 
 const ArtExperts = () => (
   <section className="twocolumn art">
@@ -8,7 +8,7 @@ const ArtExperts = () => (
         {/* Image Column */}
         <div className="col-lg-6 img-col">
           <img 
-            src="../../public/images/7_Art_Realm_Art-Classes_Image1.png" 
+            src="/images/7_Art_Realm_Art-Classes_Image1.png" 
             alt="Art Class Representation" 
           />
         </div>

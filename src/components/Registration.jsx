@@ -25,7 +25,7 @@ export default function Registration() {
         {/* Registration Methods and Schedule */}
         <div className="row">
           {/* Registration Instructions */}
-          <div className="col-lg-6">
+          <div className="col-md-6">
             <div className="htr-wrapper">
               <h6>HOW TO REGISTER:</h6>
               <ol>
@@ -64,14 +64,14 @@ export default function Registration() {
           </div>
 
           {/* Class Schedule */}
-          <div className="col-lg-6">
+          <div className="col-md-6">
             <div className="schedule">
               <h2>Saturday Class Schedule</h2>
 
               {/* Children's Classes */}
               <div className="schedule-item">
                 <div className="icon">                
-                  <img src="../../public/images/Children.png" alt="Children Icon" />
+                  <img src="/images/Children.png" alt="Children Icon" />
                 </div>
                 <div className="details">
                   <h3>Children's Classes:</h3>
@@ -88,7 +88,7 @@ export default function Registration() {
               {/* Teens' Classes */}
               <div className="schedule-item">
                 <div className="icon">
-                  <img src="../../public/images/Teens.png" alt="Teens Icon" />
+                  <img src="/images/Teens.png" alt="Teens Icon" />
                 </div>
                 <div className="details">
                   <h3>Teens' Classes:</h3>
@@ -102,7 +102,7 @@ export default function Registration() {
               {/* Adults' Classes */}
               <div className="schedule-item">
                 <div className="icon">
-                  <img src="../../public/images/Adults.png" alt="Adults Icon" />
+                  <img src="/images/Adults.png" alt="Adults Icon" />
                 </div>
                 <div className="details">
                   <h3>Adults' Classes:</h3>
@@ -120,7 +120,7 @@ export default function Registration() {
               {/* Creative Workshops */}
               <div className="schedule-item">
                 <div className="icon">
-                  <img src="../../public/images/CreativeMock.png" alt="Workshops Icon" />
+                  <img src="/images/CreativeMock.png" alt="Workshops Icon" />
                 </div>
                 <div className="details">
                   <h3>Creative Workshops:</h3>
@@ -132,7 +132,7 @@ export default function Registration() {
               {/* Art for Wellbeing */}
               <div className="schedule-item">
                 <div className="icon">
-                  <img src="../../public/images/ArtWell.png" alt="Wellbeing Icon" />
+                  <img src="/images/ArtWell.png" alt="Wellbeing Icon" />
                 </div>
                 <div className="details">
                   <h3>Art for Wellbeing:</h3>
@@ -149,7 +149,7 @@ export default function Registration() {
     <div className="container">
       <div className="row">
         {/* Fees and Discounts Section */}
-        <div className="col-lg-6">
+        <div className="col-md-6">
           <div className="fees-discounts">
             <h3>Fees and Discounts</h3>
             <table className="fees-table">
@@ -185,7 +185,7 @@ export default function Registration() {
         </div>
 
         {/* Additional Information Section */}
-        <div className="col-lg-6">
+        <div className="col-md-6">
           <div className="additional-info">
             <p>
               <strong>Registration Fee:1500 rupees across all age
